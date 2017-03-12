@@ -19,10 +19,10 @@ For output it displays all six control and datapath registers, the CSAR and CSIR
 
 Instructions are 12 bits, a 3-bit opcode followed by a 9-bit address.  
 Example instruction:  
-              +---+---------+  
-  memory-word |010|000001001|  
-              +---+---------+  
-
++---+---------+  
+|010|000001001|  
++---+---------+  
+              
     where bits 0-2  == 3-bit opcode  
           bits 3-11 == 9-bit address field  
 
