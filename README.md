@@ -18,16 +18,13 @@ The simulator reads a list of memory words in hex, ending with a sentinel of -1,
 For output it displays all six control and datapath registers, the CSAR and CSIR, and the contents of the first 20 words in memory.
 
 Instructions are 12 bits, a 3-bit opcode followed by a 9-bit address.  
-Example instruction:  
-+---+---------+  
+Example instruction:    
 |010|000001001|  
-+---+---------+  
-              
-    where bits 0-2  == 3-bit opcode  
-          bits 3-11 == 9-bit address field  
 
-    or, given as three hex digits  
+ where bits 0-2  == 3-bit opcode  
+ bits 3-11 == 9-bit address field  
+ 
+ or, given as three hex digits  
+ memory-word 0x409  
 
-  memory-word 0x409  
-
-  (The example is "store 9", that is, store a copy of the value in the accumulator into the 12-bit memory word at location 9.)
+(The example is "store 9", that is, store a copy of the value in the accumulator into the 12-bit memory word at location 9.)
