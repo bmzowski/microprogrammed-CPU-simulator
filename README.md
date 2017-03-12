@@ -18,6 +18,7 @@ The simulator reads a list of memory words in hex, ending with a sentinel of -1,
 For output it displays all six control and datapath registers, the CSAR and CSIR, and the contents of the first 20 words in memory.
 
 Instructions are 12 bits, a 3-bit opcode followed by a 9-bit address.  
+
 Example instruction:    
 |010|000001001|  
 
